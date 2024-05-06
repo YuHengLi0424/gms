@@ -5,9 +5,9 @@ spring:
     name: gms-contest
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.106.175.70/gms
+    url: jdbc:mysql://localhost:3306/gms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
-    password: 0751@@@wjw
+    password: 2633558
     hikari:
       connection-timeout: 30000
       minimum-idle: 3
