@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin(origins = {"https://example.com", "https://sub.example.com"}, allowCredentials = "true")
 @RestController
 @RequestMapping("/contestApplication")
 public class ContestApplicationController {
